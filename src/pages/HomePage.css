@@ -1,0 +1,43 @@
+/* src/pages/HomePage.css */
+
+.home-page {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #007bff; /* Bootstrap primary blue */
+  }
+  
+  .links-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .link-card {
+    background-color: white; /* White background for the card */
+    border: 1px solid #007bff; /* Border with blue color */
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    text-decoration: none; /* No underline for links */
+    color: #007bff; /* Link text color */
+    width: 200px; /* Fixed width for uniformity */
+    transition: transform 0.2s; /* Animation on hover */
+  }
+  
+  .link-card:hover {
+    transform: scale(1.05); /* Slightly scale the card on hover */
+  }
+  
+  .link-card h3 {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .link-card p {
+    margin: 5px 0 0; /* Adjust margin for paragraph */
+  }
+  
